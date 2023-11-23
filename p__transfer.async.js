@@ -1,1 +1,12 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[395],{9987:function(o,n,t){t.r(n);var u=t(2086),s=function(){return(0,u.jsx)("div",{children:(0,u.jsx)("p",{children:"This is umi TransferPage."})})};n.default=s},1836:function(o,n,t){var u=t(3236),s=Symbol.for("react.element"),i=Symbol.for("react.fragment"),p=Object.prototype.hasOwnProperty,y=u.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,k={key:!0,ref:!0,__self:!0,__source:!0};function a(f,e,c){var r,_={},l=null,d=null;c!==void 0&&(l=""+c),e.key!==void 0&&(l=""+e.key),e.ref!==void 0&&(d=e.ref);for(r in e)p.call(e,r)&&!k.hasOwnProperty(r)&&(_[r]=e[r]);if(f&&f.defaultProps)for(r in e=f.defaultProps,e)_[r]===void 0&&(_[r]=e[r]);return{$$typeof:s,type:f,key:l,ref:d,props:_,_owner:y.current}}n.Fragment=i,n.jsx=a,n.jsxs=a},2086:function(o,n,t){o.exports=t(1836)}}]);
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[395],{9987:function(u,r,t){t.r(r);var o=t(2086),f=function(){return(0,o.jsx)("div",{children:(0,o.jsx)("pre",{children:`
+
+      ----mint----
+      
+      data:,{"p":"asc-20","op":"mint","tick":"aval","amt":"100000000"}
+
+      Encoded and sent to the recipient, and does not support contracts
+
+      ----transfer----
+
+      data:,{"p":"asc-20","op":"transfer","tick":"aval","to":[{"recv":"0x000","amt":"10"}]}
+`})})};r.default=f},1836:function(u,r,t){var o=t(3236),f=Symbol.for("react.element"),c=Symbol.for("react.fragment"),p=Object.prototype.hasOwnProperty,m=o.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,k={key:!0,ref:!0,__self:!0,__source:!0};function d(a,e,i){var n,s={},_=null,l=null;i!==void 0&&(_=""+i),e.key!==void 0&&(_=""+e.key),e.ref!==void 0&&(l=e.ref);for(n in e)p.call(e,n)&&!k.hasOwnProperty(n)&&(s[n]=e[n]);if(a&&a.defaultProps)for(n in e=a.defaultProps,e)s[n]===void 0&&(s[n]=e[n]);return{$$typeof:f,type:a,key:_,ref:l,props:s,_owner:m.current}}r.Fragment=c,r.jsx=d,r.jsxs=d},2086:function(u,r,t){u.exports=t(1836)}}]);
